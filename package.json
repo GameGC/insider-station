@@ -1,0 +1,41 @@
+{
+  "name": "insider-station",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "edit-json-file": "^1.6.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.3",
+    "monkeylearn": "^3.4.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "node-linkedin-v2": "^0.0.8",
+    "pug": "^3.0.2",
+    "yahoo-finance2": "^1.10.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "esm": "^3.2.25",
+    "ts-loader": "^8.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.32.0"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
